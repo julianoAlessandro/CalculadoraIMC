@@ -1,0 +1,50 @@
+  body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-image: url(img/fundo.jpg);
+
+        }
+        input{
+            margin: 5px;
+            height: 30px;
+            position: relative;
+            left: -5px;
+                border-radius: 6px;
+                border-color: gray;
+
+        }
+        input: hover{
+            border-color: red;
+        }
+        .enviar : hover{
+            background-color: blue;
+        }
+
+        .enviar{
+            position: relative;
+            left: 1%;
+            width: 250px;
+            height: 36px;
+            background-color: red;
+            color: white;
+             border-radius: 8px;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        label{
+            color: white;
+        }
+        fildset{
+            color: gray;
+        }
+
+       
+        
+
+
+    </style>
